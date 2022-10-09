@@ -24,7 +24,7 @@ const List = (props: ListProps ) => {
           ))}
     
         </ListStyled>
-      ) : <ListEmpty>Nenhum professor encontrado</ListEmpty> }
+      ) : <ListEmpty>Nenhum item encontrado para exibição</ListEmpty> }
     </div>
   )
 }
